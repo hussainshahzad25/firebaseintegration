@@ -1,0 +1,23 @@
+page-home {
+
+}
+.padding{
+    height: 30px;
+    width: 100%;
+}
+
+.delete{   
+    color: red !important;
+    font-weight: bold;
+    &:hover {
+      color: green;
+    }
+}
+
+.update{
+    font-weight: bold;
+    color: blue !important;
+}
+.cancel{
+    font-weight: bold;
+}

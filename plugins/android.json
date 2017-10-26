@@ -1,0 +1,37 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.ion.starter"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.ion.starter"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.ion.starter"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.ion.starter"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.ion.starter"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.ion.starter"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.ion.starter"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.ion.starter"
+    }
+  }
+}

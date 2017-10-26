@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Add Data
+
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addSong()" title="Add Song">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h3>All Data</h3>
+
+  <ion-list>
+    <div class="padding">
+      <ion-item *ngFor="let song of songs | async" (click)="showOptions(song.$key, song.title)">{{song.title}}</ion-item>
+    </div>
+    <hr><br>
+    <ion-item-sliding *ngFor="let song of songs | async">
+      <ion-item>
+        {{song.title}}
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button color="danger">
+        <ion-icon name="trash"></ion-icon></button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

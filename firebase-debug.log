@@ -1,0 +1,113 @@
+[debug] [2017-10-03T07:37:06.031Z] ----------------------------------------------------------------------
+[debug] [2017-10-03T07:37:06.033Z] Command:       /home/shahzad/.nvm/versions/node/v8.6.0/bin/node /home/shahzad/.nvm/versions/node/v8.6.0/bin/firebase serve
+[debug] [2017-10-03T07:37:06.033Z] CLI Version:   3.12.0
+[debug] [2017-10-03T07:37:06.033Z] Platform:      linux
+[debug] [2017-10-03T07:37:06.033Z] Node Version:  v8.6.0
+[debug] [2017-10-03T07:37:06.033Z] Time:          Tue Oct 03 2017 13:07:06 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:06.033Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-03T07:37:06.040Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-03T07:37:06.040Z] > authorizing via signed-in user
+[debug] [2017-10-03T07:37:06.042Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-03T07:37:06.042Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/kayY392jriJ5cS-35RzE6j6AuwxTOk_YG7xQ4dSKV7w',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Oct 03 2017 13:07:06 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:06.577Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:37:06.617Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/good-f2be7  
+ Tue Oct 03 2017 13:07:06 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:08.008Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:37:08.009Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/good-f2be7/tokens  
+ Tue Oct 03 2017 13:07:08 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:09.385Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/shahzad/Documents/Doc/Ionic2/af2-lists'...
+[info] 
+[debug] [2017-10-03T07:37:09.388Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/good-f2be7  
+ Tue Oct 03 2017 13:07:09 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:10.967Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:37:10.968Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/526676081524/clients/_:getWebAppConfig  
+ Tue Oct 03 2017 13:07:10 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:12.031Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:37:12.067Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/home/shahzad/.nvm/versions/node/v8.6.0/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1371:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-10-03T07:37:28.944Z] ----------------------------------------------------------------------
+[debug] [2017-10-03T07:37:28.946Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-10-03T07:37:28.947Z] CLI Version:   3.12.0
+[debug] [2017-10-03T07:37:28.947Z] Platform:      linux
+[debug] [2017-10-03T07:37:28.947Z] Node Version:  v7.10.0
+[debug] [2017-10-03T07:37:28.947Z] Time:          Tue Oct 03 2017 13:07:28 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:28.947Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-03T07:37:28.969Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-03T07:37:28.969Z] > authorizing via signed-in user
+[debug] [2017-10-03T07:37:28.971Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/good-f2be7  
+ Tue Oct 03 2017 13:07:28 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:30.385Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:37:30.386Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/good-f2be7/tokens  
+ Tue Oct 03 2017 13:07:30 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:31.827Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/shahzad/Documents/Doc/Ionic2/af2-lists'...
+[info] 
+[debug] [2017-10-03T07:37:31.835Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/good-f2be7  
+ Tue Oct 03 2017 13:07:31 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:33.477Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:37:33.479Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/526676081524/clients/_:getWebAppConfig  
+ Tue Oct 03 2017 13:07:33 GMT+0530 (IST)
+[debug] [2017-10-03T07:37:34.325Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:37:34.431Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:17)
+    at Object.onceWrapper (events.js:293:19)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:188:7)
+    at emitListeningNT (net.js:1286:10)
+    at _combinedTickCallback (internal/process/next_tick.js:77:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:128:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-10-03T07:41:02.219Z] ----------------------------------------------------------------------
+[debug] [2017-10-03T07:41:02.220Z] Command:       /home/shahzad/.nvm/versions/node/v8.6.0/bin/node /home/shahzad/.nvm/versions/node/v8.6.0/bin/firebase serve
+[debug] [2017-10-03T07:41:02.221Z] CLI Version:   3.12.0
+[debug] [2017-10-03T07:41:02.221Z] Platform:      linux
+[debug] [2017-10-03T07:41:02.221Z] Node Version:  v8.6.0
+[debug] [2017-10-03T07:41:02.221Z] Time:          Tue Oct 03 2017 13:11:02 GMT+0530 (IST)
+[debug] [2017-10-03T07:41:02.221Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-03T07:41:02.228Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-03T07:41:02.228Z] > authorizing via signed-in user
+[debug] [2017-10-03T07:41:02.230Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/good-f2be7  
+ Tue Oct 03 2017 13:11:02 GMT+0530 (IST)
+[debug] [2017-10-03T07:41:03.823Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:41:03.825Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/good-f2be7/tokens  
+ Tue Oct 03 2017 13:11:03 GMT+0530 (IST)
+[debug] [2017-10-03T07:41:05.242Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/shahzad/Documents/Doc/Ionic2/af2-lists'...
+[info] 
+[debug] [2017-10-03T07:41:05.247Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/good-f2be7  
+ Tue Oct 03 2017 13:11:05 GMT+0530 (IST)
+[debug] [2017-10-03T07:41:06.714Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:41:06.714Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/526676081524/clients/_:getWebAppConfig  
+ Tue Oct 03 2017 13:11:06 GMT+0530 (IST)
+[debug] [2017-10-03T07:41:07.557Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-03T07:41:07.567Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/home/shahzad/.nvm/versions/node/v8.6.0/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1371:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
